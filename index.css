@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    
+}
+
+
+
+.container {
+    width: 375px;
+    background-color: white;
+    margin: auto;
+    padding-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.head .avatar {
+    margin: 15px 0;
+}
+
+.logo {
+    width: 35%;
+}
+
+.main-img {
+    width:100%;
+}
+
+.info {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    padding: 30px 10px 10px 10px ;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.post-info,
+span {
+    font-weight: bold;
+}
+
+.post-info {
+    margin:0;
+    padding: 0px 0 0 10px;
+}
+
+.post-info span {
+    display: block;
+    font-weight: lighter;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.icons-box {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    padding: 10px 0 0 0px;
+}
+
+.icons {
+    margin-left: 10px;
+}
+
+.icons:hover,
+.icons:focus {
+    opacity: 50%;
+}
+
+.btm-stuff {
+    padding: 0 15px;
+}
+
